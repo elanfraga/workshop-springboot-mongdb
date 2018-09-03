@@ -21,7 +21,6 @@ public class UserService {
 
     public User findByID(String id){
         Optional<User> obj = repo.findById(id);
-
         return obj.orElseThrow(() -> new ObjectNotFoundException("Objeto nao encontrado"));
     }
 }
