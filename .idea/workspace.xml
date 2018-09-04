@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="469d63dd-1ef9-44f6-87a9-8e6ba03de0ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/resources/UserRecource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/resources/UserRecource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/services/UserService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,7 +26,7 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="13" />
+          <entry key="java" value="17" />
           <entry key="properties" value="2" />
           <entry key="xml" value="2" />
         </counts>
@@ -35,7 +35,7 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="13" />
+          <entry key="JAVA" value="17" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="2" />
         </counts>
@@ -43,14 +43,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="1195" />
+          <entry key="java" value="1474" />
           <entry key="properties" value="2" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1195" />
+          <entry key="JAVA" value="1474" />
           <entry key="PLAIN_TEXT" value="9" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="3" />
@@ -98,21 +98,92 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/resources/exceptions/StandardError.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/dto/UserDTO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+            <state relative-caret-position="375">
+              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/resources/UserRecource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/repository/UserRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/resources/exceptions/ResourceExceptionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/resources/exceptions/ResourceExceptionHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/config/Instantiation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+            <state relative-caret-position="285">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/resources/exceptions/StandardError.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-93">
+              <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/services/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#756#757#0" expanded="true" />
+                <element signature="e#782#783#0" expanded="true" />
+                <element signature="e#876#877#0" expanded="true" />
+                <element signature="e#960#961#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/services/exception/ObjectNotFoundException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+              <folding>
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,10 +211,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/domain/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/dto/UserDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/services/exception/ObjectNotFoundException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/resources/UserRecource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/services/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/resources/exceptions/StandardError.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/resources/exceptions/ResourceExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/services/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/resources/UserRecource.java" />
       </list>
     </option>
   </component>
@@ -154,9 +225,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="637" />
-    <option name="height" value="867" />
+    <option name="x" value="252" />
+    <option name="y" value="268" />
+    <option name="width" value="799" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -167,6 +239,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,7 +251,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -299,13 +371,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11769000" />
+    <option name="totallyTimeSpent" value="13364000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="1.0" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25506938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -315,7 +387,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4994664" visible="true" weight="0.32884097" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4994664" visible="true" weight="0.32826087" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -364,20 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/config/Instantiation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -387,7 +445,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/dto/UserDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="375">
           <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -402,19 +460,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/services/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/services/exception/ObjectNotFoundException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="60">
           <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
           <folding>
             <element signature="e#164#165#0" expanded="true" />
@@ -430,30 +478,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/resources/UserRecource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/resources/exceptions/StandardError.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="-93">
           <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/services/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/resources/UserRecource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/resources/exceptions/ResourceExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/config/Instantiation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
