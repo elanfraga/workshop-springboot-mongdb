@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/resources/PostResource.java" description="import org.springframework.beans.factory.annotatio..." line="2" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="469d63dd-1ef9-44f6-87a9-8e6ba03de0ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/resources/UserRecource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/resources/UserRecource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/elan/workshopmongo/resources/UserRecource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/elan/workshopmongo/services/UserService.class" beforeDir="false" />
-    </list>
+    <list default="true" id="469d63dd-1ef9-44f6-87a9-8e6ba03de0ec" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +28,7 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="25" />
+          <entry key="java" value="27" />
           <entry key="properties" value="2" />
           <entry key="xml" value="2" />
         </counts>
@@ -40,7 +37,7 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="25" />
+          <entry key="JAVA" value="27" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="2" />
         </counts>
@@ -48,14 +45,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="2242" />
+          <entry key="java" value="2266" />
           <entry key="properties" value="2" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2242" />
+          <entry key="JAVA" value="2266" />
           <entry key="PLAIN_TEXT" value="9" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="3" />
@@ -205,11 +202,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/services/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/resources/PostResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/services/PostService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -247,6 +268,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/config/Instantiation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/resources/UserRecource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/services/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/resources/PostResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/services/PostService.java" />
       </list>
     </option>
   </component>
@@ -336,13 +359,6 @@
               <item name="com.elan.workshopmongo" type="1f31426a:PackageElementNode" />
               <item name="services" type="1f31426a:PackageElementNode" />
             </path>
-            <path>
-              <item name="workshopmongo" type="58d84e3e:PackageViewProjectNode" />
-              <item name="workshopmongo" type="616d4139:PackageViewModuleNode" />
-              <item name="com.elan.workshopmongo" type="1f31426a:PackageElementNode" />
-              <item name="services" type="1f31426a:PackageElementNode" />
-              <item name="exception" type="1f31426a:PackageElementNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -358,7 +374,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536107838434" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536108148250" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/elan/workshopmongo" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -400,12 +416,12 @@
       <workItem from="1535980544051" duration="3213000" />
       <workItem from="1535996443194" duration="785000" />
       <workItem from="1536026305750" duration="275000" />
-      <workItem from="1536102716503" duration="5103000" />
+      <workItem from="1536102716503" duration="5413000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20317000" />
+    <option name="totallyTimeSpent" value="20627000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
@@ -625,6 +641,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/resources/PostResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/workshopmongo/services/PostService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
